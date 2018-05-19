@@ -1,6 +1,6 @@
 import discord
-import discord.ext.commands import Bot
-import discord.ext import commands
+from discord.ext.commands import Bot
+from discord.ext import commands
 import asyncio
 
 bot = commands.Bot(prefix='!!')

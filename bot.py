@@ -9,7 +9,7 @@ bot = commands.Bot(command_prefix='!!')
 async def on_ready():
   print("Hey look, I'm on!")
   
-@bot.commands()
+@bot.command()
 async def say(msg):
   await bot.say(msg)
   
